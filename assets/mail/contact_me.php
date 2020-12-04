@@ -20,6 +20,6 @@ $header = "Reply-To: $email";
 if (mail($to, $subject, $body, $header)) {
   echo "Thank you for using our mail form";
 }else{
-echo "Mail sending failed."; 
+  echo "Mail sending failed."; 
 }
 ?>
