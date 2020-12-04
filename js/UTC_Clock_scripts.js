@@ -15,6 +15,6 @@ function UTCTimeClock() {
 
     // Display the UTC Time Clock
     document.getElementById('UTC_Clock').innerHTML = hours + " : " + minutes + " : " + seconds;
-    var t = setTimeout(UTCTimeClock, 600);
+    var t = setTimeout(UTCTimeClock, 500);
 }
  
