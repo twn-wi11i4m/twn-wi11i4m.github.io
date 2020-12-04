@@ -2,7 +2,7 @@
 
 function UTCTimeClock() {
 
-    var UTCClock = new Date();
+    var UTCClock = new Date.UTC();
 
     var hours = UTCClock.getHours();
     var minutes = UTCClock.getMinutes();
