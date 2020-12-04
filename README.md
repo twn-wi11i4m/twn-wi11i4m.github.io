@@ -5,3 +5,4 @@ Due to my studies, I won't update this website regularly.
 
 In case I forgot:
     The source html : https://startbootstrap.com/theme/freelancer
+    The contact me from : formspree.io
