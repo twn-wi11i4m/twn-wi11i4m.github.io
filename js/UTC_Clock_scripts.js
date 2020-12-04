@@ -3,7 +3,7 @@
 function UTCTimeClock() {
 
     var LocalClock = new Date();
-    var UTCClock = LocalClock.toUTCString;
+    var UTCClock = LocalClock.toUTCString();
 
     var hours = UTCClock.getHours();
     var minutes = UTCClock.getMinutes();
