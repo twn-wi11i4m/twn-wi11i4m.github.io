@@ -16,7 +16,7 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
-    <body id="page-top">
+    <body id="page-top" onload="UTCTimeClock()">
         <!--Nav Bar-->
         <nav class="navbar navbar-expand-md bg-secondary text-uppercase fixed-top" id="mainNav">
             <div class="container">
@@ -42,10 +42,10 @@
                         test2
 
                     </div>
-                    <div class="col-md-6 col-lg-6 mb-5" onload="UTCTimeClock()">
+                    <div class="col-md-6 col-lg-6 mb-5">
                         UTC Time Clock
-                        <div id="UTC_Clock"></div>
-
+                        <div id="UTCClock"></div>
+                        
                     </div>
                 </div>
             </div>

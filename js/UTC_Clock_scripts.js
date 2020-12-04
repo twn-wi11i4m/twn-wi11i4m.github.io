@@ -2,12 +2,14 @@
 
 function UTCTimeClock() {
 
-    var LocalClock = new Date();
-    var UTCClock = LocalClock.toUTCString();
+    var Clock = new Date;
 
-    var hours = UTCClock.getHours();
-    var minutes = UTCClock.getMinutes();
-    var seconds = UTCClock.getSeconds();
+    var Day = Clock.getUTCDay();
+    var Month = Clock.getUTCMonth();
+    var Year = Clock.getFullYear();
+    var hours = Clock.getUTCHours();
+    var minutes = Clock.getUTCMinutes();
+    var seconds = Clock.getUTCSeconds();
 
     // Pad the hours, minutes and seconds with leading zeros
     hours = ("0" + hours).slice(-2);
@@ -15,7 +17,8 @@ function UTCTimeClock() {
     seconds = ("0" + seconds).slice(-2);
 
     // Display the UTC Time Clock
-    document.getElementById('UTC_Clock').innerHTML = hours + " : " + minutes + " : " + seconds;
-    var t = setTimeout(UTCTimeClock, 500);
+    document.getElementById('UTCClock').innerHTML = 
+    Day + " / " + Month + " / " + Year + " | UTC " + hours + " : " + minutes + " : " + seconds;
+    var t = setTimeout(UTCTimeClock, 100);
 }
  
