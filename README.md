@@ -2,7 +2,7 @@
 
 Welcome to my personal website repository! This is a modern, responsive portfolio website showcasing my work, skills, and experiences.
 
-> Click [here](https://twn-wi11i4m.github.io) to view the live site.
+> Click [here](https://twnwi11i4m.pages.dev) to view the live site.
 
 ## Overview 🌟
 
