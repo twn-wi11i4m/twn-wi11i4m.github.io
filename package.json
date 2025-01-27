@@ -3,12 +3,16 @@
   "version": "0.2.0",
   "private": true,
   "homepage": "https://twn-wi11i4m.github.io",
+  "engines": {
+    "node": ">=22.0.0",
+    "npm": ">=10.0.0"
+  },
   "scripts": {
     "start": "NODE_OPTIONS='--openssl-legacy-provider' && react-scripts start",
     "build": "react-scripts build --openssl-legacy-provider build",
     "serve": "serve -s build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
