@@ -1,46 +1,47 @@
-# twn-wi11i4m.github.io
-This is my website.
-I would like to add some feature to my webstie, namely, avaition weather pages, some usefull math tool, and etc...
-Due to my studies, I won't update this website regularly.
+# William NG's Personal Website 👨🏻‍✈️
 
-In case I forgot:
-    The source html : https://startbootstrap.com/theme/freelancer
-    The contact me from : formspree.io
+Welcome to my personal website repository! This is a modern, responsive portfolio website showcasing my work, skills, and experiences.
 
-Table Generator: https://www.tablesgenerator.com/text_tables
-Severe Weather Information Centre 2.0: https://severeweather.wmo.int/v2/
-NOAA AVIATION WEATHER CENTER (US only): https://www.aviationweather.gov
+> Click [here](https://twn-wi11i4m.github.io) to view the live site.
 
-# To do list:
-1. AWW.html
-    - Get the METAR data from HKO and display it
-    - Get the TAF data from HKO and display it
-    - Get the ATIS data from CAD and display it
-    - formating the website and change the style
-    - Get the rader image from HKO and display it
-    - Get the data of wind, temp, and visibility from HKO
+## Overview 🌟
 
-Draft:
+This website serves as my digital portfolio and personal brand, featuring:
 
-+---------------------------+--+----------------------------------------------+
-| METAR:                    |  |         UTC Time: **:**:** **/**/****        |
-| ************************* |  |                                              |
-+---------------------------+--+----------------------------------------------+
-| TAF:                      |  |                 Radar Image                  |
-| ********************      +--+---------------+---------------+--------------+
-| ********************      |  |     (64km)    |    (128km)    |    (256km)   |
-| ********************      |  |   *********   |   *********   |   *********  |
-| ********************      |  |   *********   |   *********   |   *********  |
-+---------------------------+--+---------------+---------------+--------------+
-| ATIS:                     |  | Wind: ***************                        |
-|                           |  |                                              |
-| Dept:                     |  | relative cross wind: ******                  |
-| **********                |  |                                              |
-| *********                 +--+----------------------------------------------+
-| *********                 |  | temp: *********                              |
-|                           +--+----------------------------------------------+
-| ARRI:                     |  | visibility: ******* km                       |
-| **********                +--+----------------------------------------------+
-| *********                 |  | Severe Weather Information Centre 2.0 (link) |
-| *********                 |  | NOAA AVIATION WEATHER CENTER (link)          |
-+---------------------------+--+----------------------------------------------+
+- Clean and modern UI design
+- Interactive project showcase
+- Professional background and skills
+- Blog posts sharing my tech journey
+- Easy contact options
+
+## Tech Stack 🛠
+
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+
+## Features ✨
+
+- 📱 Responsive design for all devices
+- 💼 Portfolio showcase with detailed project descriptions
+- 📝 Blog section for sharing insights and experiences
+- 📬 Contact form for easy communication
+- 🎨 Modern UI/UX with smooth animations
+- ⚡ Fast loading and optimized performance
+
+## Deployment
+
+The site is automatically deployed using Vercel/Netlify.
+
+## License 📝
+
+MIT License
+
+## Contact 📬
+
+Feel free to reach out through the contact form on my website. I'd love to hear from you!
+
+---
+
+Built with ❤️ by William NG
