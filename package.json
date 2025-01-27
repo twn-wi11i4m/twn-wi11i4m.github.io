@@ -1,6 +1,6 @@
 {
   "name": "twn-wi11i4m.github.io",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "homepage": "https://twn-wi11i4m.github.io",
   "scripts": {
@@ -8,7 +8,7 @@
     "build": "react-scripts build --openssl-legacy-provider build",
     "serve": "serve -s build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
