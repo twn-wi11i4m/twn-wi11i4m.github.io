@@ -61,7 +61,7 @@ const Footer = () => {
               programmer.
               <br />
               Want to work with me?
-              <a href="#contact">Contact Me</a>.
+              <a href="#contact"> Contact Me</a>.
             </lead>
           </Col>
         </Row>

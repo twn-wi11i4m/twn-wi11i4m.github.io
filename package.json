@@ -1,8 +1,9 @@
 {
-  "name": "twn-wi11i4m.github.io",
-  "version": "0.2.2",
+  "name": "twnwi11i4m-pages",
+  "version": "0.2.3",
   "private": true,
-  "homepage": "https://twn-wi11i4m.github.io",
+  "description": "This is the website of William Ng, a software engineer and web developer.",
+  "homepage": "https://twnwi11i4m.pages.dev",
   "engines": {
     "node": ">=22.0.0",
     "npm": ">=10.0.0"

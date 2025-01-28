@@ -1,4 +1,7 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+// Import components for the personal page
 import Navbar from "./components/Navbar";
 import Masthead from "./components/Masthead";
 import Portfolio from "./components/Portfolio";
@@ -7,8 +10,9 @@ import ContactMe from "./components/ContactMe";
 import Footer from "./components/Footer";
 import Copyright from "./components/Copyright";
 import ScrollToTop from "./components/ScrollToTop";
+
+// Import components for the social card
 import SocialCard from "./components/SocialCard";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 const AppPersonalPage = () => {
   return (
@@ -21,7 +25,6 @@ const AppPersonalPage = () => {
       <Footer />
       <Copyright />
       <ScrollToTop />
-
     </div>
   );
 };
@@ -40,7 +43,10 @@ const App = () => {
     <Router>
       <Routes>
         <Route index exact element={<AppPersonalPage />} />
-        <Route path={process.env.REACT_APP_SOCIAL_CARD_PATH} element={<AppSocialCard />} />
+        <Route
+          path={process.env.REACT_APP_SOCIAL_CARD_PATH}
+          element={<AppSocialCard />}
+        />
       </Routes>
     </Router>
   );
