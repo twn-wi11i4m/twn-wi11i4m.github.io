@@ -5,6 +5,7 @@ import {
   faFacebookF,
   faInstagram,
   faSnapchat,
+  faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 
 const SocialCard = () => {
@@ -18,6 +19,11 @@ const SocialCard = () => {
       name: "Instagram",
       icon: <FontAwesomeIcon icon={faInstagram} className="fa-lg me-3" />,
       url: process.env.REACT_APP_INSTAGRAM_URL,
+    },
+    {
+      name: "LinkedIn",
+      icon: <FontAwesomeIcon icon={faLinkedin} className="fa-lg me-3" />,
+      url: process.env.REACT_APP_LINKEDIN_URL,
     },
     {
       name: "Snapchat",
